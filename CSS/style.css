@@ -1,0 +1,94 @@
+/*
+Este es mi hoja de estilos de mi index.html
+*/
+
+body {}
+
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+time {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.about-header{
+    margin: auto;
+    padding: 0px;
+    background-color: #f3f3f3;
+    text-align: center;
+    color: 	#808080;
+}
+
+.twitter {
+    float: right;
+    padding-right: 10px;
+    color: 	#808080;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.fecha {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.titulos{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.textos {
+    color: #ffffff;
+    size: 0.9em;
+    font-weight: 100;
+}
+
+.read-article {
+    color: #ffffff;
+    margin-top: 300px ;
+}
+
+.boxCeleste {
+    background-color: #0082c8;
+    padding: 10px;
+}
+
+.boxMarron {
+    background-color: #73616f;
+    padding: 10px;
+}
+
+.boxCoral {
+    background-color: #e8856c;
+    padding: 10px;
+}
+
+
+.boxAzul {
+    background-color: #16528e;
+    padding: 10px;
+}
+
+.boxRojo {
+    background-color: #e54b4b;
+    padding: 10px;
+}
+
+.boxVerdeClaro {
+    background-color: #a2c5bf;
+    padding: 10px;
+}
