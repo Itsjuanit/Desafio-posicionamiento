@@ -2,7 +2,6 @@
 Este es mi hoja de estilos de mi index.html
 */
 
-body {}
 
 span {
     font-family: 'Roboto', sans-serif;
@@ -25,25 +24,19 @@ p {
     align-items: stretch;
 }
 
-.about-header{
+.about-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 45%;
     background-color: #f3f3f3;
     color: #808080;
-      
-}
-
-.twitter {
-    display: flex;
-    padding-left:10px;
-    margin-left: 70%;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
+    height: 100vh;
 }
 
 .fecha {
@@ -51,7 +44,7 @@ p {
     color: #ffffff;
 }
 
-.titulos{
+.titulos {
     color: #ffffff;
     font-size: 3em;
     font-weight: bold;
@@ -65,8 +58,11 @@ p {
 }
 
 .read-article {
-    color: #ffffff;
-    margin-top:300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 40px;
 }
 
 .boxCeleste {
